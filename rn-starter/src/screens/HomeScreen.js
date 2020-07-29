@@ -45,6 +45,10 @@ const HomeScreen = ({ navigation }) => { //destructuring navigation from props
       title="Go to Text Demo"
       onPress={() => navigation.navigate("Text")}
     />
+    <Button
+      title="Go to Box Demo"
+      onPress={() => navigation.navigate("Box")}
+    />
     {/*
       - Any elements inside touchable opacity will detect taps
       - Automatically adds fade effect to anything inside creating user feedback

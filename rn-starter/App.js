@@ -17,6 +17,8 @@ import ColorScreen from "./src/screens/ColorScreen"
 import SquareScreen from './src/screens/SquareScreen';
 //text input name app
 import TextScreen from './src/screens/TextScreen'
+//Section 7, screen layout 
+import BoxScreen from './src/screens/BoxScreen'
 
 /*
   - the stack navigator is responsible for deciding which screen to show
@@ -34,6 +36,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreen,
     Text: TextScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: "Home", //first component to be displayed
