@@ -9,6 +9,14 @@ import ExerciseScreen1 from "./src/screens/Exercise1";
 import ListScreen from "./src/screens/ListScreen";
 //Section 5, reusable components with images
 import ImageScreen from "./src/screens/ImageScreen";
+//Section 6, counter app
+import CounterScreen from "./src/screens/CounterScreen"
+//color add app
+import ColorScreen from "./src/screens/ColorScreen"
+//square change color app
+import SquareScreen from './src/screens/SquareScreen';
+//text input name app
+import TextScreen from './src/screens/TextScreen'
 
 /*
   - the stack navigator is responsible for deciding which screen to show
@@ -21,7 +29,11 @@ const navigator = createStackNavigator(
     Components: ComponentsScreen, //now possible option for SN to show user
     Exercise1: ExerciseScreen1,
     List: ListScreen,
-    Image: ImageScreen
+    Image: ImageScreen,
+    Counter: CounterScreen,
+    Color: ColorScreen,
+    Square: SquareScreen,
+    Text: TextScreen,
   },
   {
     initialRouteName: "Home", //first component to be displayed
